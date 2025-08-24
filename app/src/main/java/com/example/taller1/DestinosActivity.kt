@@ -59,7 +59,7 @@ class DestinosActivity : AppCompatActivity() {
         val destinosList = mutableListOf<Destino>()
 
         try {
-            // Leer desde assets en lugar de res/raw
+            // Leer desde assets
             val inputStream = assets.open("destinos.json")
             val jsonString = inputStream.bufferedReader().use { it.readText() }
 

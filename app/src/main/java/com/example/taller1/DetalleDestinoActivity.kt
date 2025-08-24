@@ -34,8 +34,8 @@ class DetalleDestinoActivity : AppCompatActivity() {
     }
 
     private fun guardarFavorito(destino: Destino) {
-        // Aquí guardarías el destino en SharedPreferences, Room, o tu base de datos
-        // Por ahora solo mostraremos un Toast
+        // Aquí guardar lo de favorito
+        // Por ahora solo un Toast
         val sharedPreferences = getSharedPreferences("favoritos", MODE_PRIVATE)
         val editor = sharedPreferences.edit()
         editor.putString("ultimo_favorito", destino.nombre)

@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
         // Aplicar el adapter al spinner
         spinner.adapter = adapter
 
-        // Opcional: Manejar la selección de items
+        //Selección de items
         spinner.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
             override fun onItemSelected(parent: AdapterView<*>, view: View?, position: Int, id: Long) {
                 // Obtener la categoría seleccionada
@@ -56,7 +56,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun configurarBotones() {
-        // Configurar el botón de Explorar Destinos
+        // Configuracion el botón de Explorar Destinos
         findViewById<Button>(R.id.button1).setOnClickListener {
             val spinner = findViewById<Spinner>(R.id.spinnerCategorias)
             val categoriaSeleccionada = spinner.selectedItem.toString()
@@ -66,7 +66,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        // Configurar los otros botones
+        // Configuracion los otros botones
         findViewById<Button>(R.id.button2).setOnClickListener {
             Toast.makeText(this, "Favoritos", Toast.LENGTH_SHORT).show()
         }
