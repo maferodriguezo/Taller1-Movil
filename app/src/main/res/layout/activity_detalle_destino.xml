@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:padding="16dp"
+android:background="?android:attr/selectableItemBackground">
+
+<TextView
+    android:id="@+id/textViewNombre"
+    android:layout_width="183dp"
+    android:layout_height="26dp"
+    android:layout_marginTop="288dp"
+    android:textColor="@android:color/black"
+    android:textSize="18sp"
+    android:textStyle="bold"
+    android:textAlignment="center"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:text="Nombre del Destino" />
+
+<TextView
+    android:id="@+id/textViewPais"
+    android:layout_width="184dp"
+    android:layout_height="23dp"
+    android:layout_marginTop="4dp"
+    android:textSize="16sp"
+    android:textAlignment="center"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textViewNombre"
+    tools:text="País" />
+
+<TextView
+    android:id="@+id/textViewCategoria"
+    android:layout_width="185dp"
+    android:layout_height="22dp"
+    android:layout_marginTop="4dp"
+    android:textSize="14sp"
+    android:textAlignment="center"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textViewPais"
+    tools:text="Categoría" />
+
+<TextView
+    android:id="@+id/textViewDescripcion"
+    android:layout_width="186dp"
+    android:layout_height="22dp"
+    android:layout_marginTop="4dp"
+    android:textSize="14sp"
+    android:textAlignment="center"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.502"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textViewCategoria"
+    tools:text="Descripción del destino" />
+
+<TextView
+    android:id="@+id/textViewPrecio"
+    android:layout_width="185dp"
+    android:layout_height="24dp"
+    android:layout_marginTop="4dp"
+    android:textSize="14sp"
+    android:textAlignment="center"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textViewDescripcion"
+    tools:text="USD 1000" />
+
+<Button
+    android:id="@+id/btnFavorito"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:layout_marginBottom="16dp"
+    android:text="Añadir a Favoritos"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textViewDescripcion"
+    app:layout_constraintVertical_bias="0.971" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,5 +1,6 @@
 package com.example.taller1
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.AdapterView
@@ -21,7 +22,6 @@ class MainActivity : AppCompatActivity() {
 
         configurarSpinner()
 
-        // Configurar listeners de los botones
         configurarBotones()
     }
 
@@ -61,9 +61,9 @@ class MainActivity : AppCompatActivity() {
             val spinner = findViewById<Spinner>(R.id.spinnerCategorias)
             val categoriaSeleccionada = spinner.selectedItem.toString()
 
-            // Aquí iría el código para abrir la actividad de destinos
-            // con la categoría seleccionada
-            Toast.makeText(this, "Explorar: $categoriaSeleccionada", Toast.LENGTH_SHORT).show()
+            val intent = Intent(this, DestinosActivity::class.java)
+            intent.putExtra("categoria", categoriaSeleccionada)
+            startActivity(intent)
         }
 
         // Configurar los otros botones

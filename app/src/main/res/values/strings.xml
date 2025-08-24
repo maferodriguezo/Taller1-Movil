@@ -8,4 +8,6 @@
         <item>Maravillas del Mundo</item>
         <item>Selvas</item>
     </string-array>
+
+    <string name="destinos_titulo">Destinos: %s</string>
 </resources>

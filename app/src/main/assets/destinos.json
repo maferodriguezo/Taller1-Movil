@@ -1,0 +1,94 @@
+{
+  "destinos": [
+    {
+      "id": 1,
+      "nombre": "Cancún",
+      "pais": "México",
+      "categoria": "Playas",
+      "actividad": "Buceo y snorkel",
+      "precio": "USD 800",
+      "descripcion": "Hermosas playas de arena blanca y aguas cristalinas en el Caribe mexicano"
+    },
+    {
+      "id": 2,
+      "nombre": "Machu Picchu",
+      "pais": "Perú",
+      "categoria": "Maravillas del Mundo",
+      "actividad": "Trekking y fotografía",
+      "precio": "USD 1200",
+      "descripcion": "Antigua ciudadela inca en lo alto de las montañas de los Andes"
+    },
+    {
+      "id": 3,
+      "nombre": "París",
+      "pais": "Francia",
+      "categoria": "Ciudades Históricas",
+      "actividad": "Tour cultural y gastronomía",
+      "precio": "USD 1500",
+      "descripcion": "La ciudad del amor con monumentos icónicos como la Torre Eiffel"
+    },
+    {
+      "id": 4,
+      "nombre": "Alpes Suizos",
+      "pais": "Suiza",
+      "categoria": "Montañas",
+      "actividad": "Esquí y senderismo",
+      "precio": "USD 1800",
+      "descripcion": "Impresionantes montañas para deportes de invierno y verano"
+    },
+    {
+      "id": 5,
+      "nombre": "Amazonas",
+      "pais": "Brasil",
+      "categoria": "Selvas",
+      "actividad": "Ecoturismo y avistamiento",
+      "precio": "USD 1000",
+      "descripcion": "La selva tropical más grande del mundo con biodiversidad única"
+    },
+    {
+      "id": 6,
+      "nombre": "Roma",
+      "pais": "Italia",
+      "categoria": "Ciudades Históricas",
+      "actividad": "Tour histórico y cultural",
+      "precio": "USD 1300",
+      "descripcion": "Ciudad eterna con ruinas antiguas y arte renacentista"
+    },
+    {
+      "id": 7,
+      "nombre": "Bali",
+      "pais": "Indonesia",
+      "categoria": "Playas",
+      "actividad": "Relax y cultura local",
+      "precio": "USD 900",
+      "descripcion": "Isla paradisíaca con templos hindúes y playas exóticas"
+    },
+    {
+      "id": 8,
+      "nombre": "Gran Cañón",
+      "pais": "Estados Unidos",
+      "categoria": "Maravillas del Mundo",
+      "actividad": "Senderismo y fotografía",
+      "precio": "USD 1100",
+      "descripcion": "Impresionante formación geológica tallada por el río Colorado"
+    },
+    {
+      "id": 9,
+      "nombre": "Kilimanjaro",
+      "pais": "Tanzania",
+      "categoria": "Montañas",
+      "actividad": "Escalada y aventura",
+      "precio": "USD 2000",
+      "descripcion": "La montaña más alta de África con nieves perpetuas"
+    },
+    {
+      "id": 10,
+      "nombre": "Congo",
+      "pais": "República Democrática del Congo",
+      "categoria": "Selvas",
+      "actividad": "Safari y observación de gorilas",
+      "precio": "USD 2000",
+      "descripcion": "Selva tropical con vida salvaje única incluyendo gorilas de montaña"
+    }
+  ]
+}
