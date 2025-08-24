@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name" translatable="false">Taller1</string>
+    <string-array name="categorias_viajes">
+        <item>Todos</item>
+        <item>Playas</item>
+        <item>Montañas</item>
+        <item>Ciudades Históricas</item>
+        <item>Maravillas del Mundo</item>
+        <item>Selvas</item>
+    </string-array>
+</resources>
