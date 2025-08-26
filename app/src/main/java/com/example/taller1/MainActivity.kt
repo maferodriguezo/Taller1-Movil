@@ -23,6 +23,12 @@ class MainActivity : AppCompatActivity() {
         configurarSpinner()
 
         configurarBotones()
+        val botonFavoritos: Button = findViewById(R.id.btnFavoritos)
+        botonFavoritos.setOnClickListener {
+            val intent = Intent(this, FavoritosActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 
     private fun configurarSpinner() {
@@ -75,4 +81,10 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this, "Recomendaciones", Toast.LENGTH_SHORT).show()
         }
     }
+    companion object {
+        val favoritos = mutableListOf<Destino>()
+    }
+
+
 }
+

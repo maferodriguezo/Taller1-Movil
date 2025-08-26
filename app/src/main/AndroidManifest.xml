@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Taller1">
         <activity
+            android:name=".FavoritosActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
@@ -20,9 +23,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name=".DestinosActivity" />
         <activity android:name=".DetalleDestinoActivity" />
+        <activity android:name=".FavoritosActivity" />
     </application>
 
 </manifest>

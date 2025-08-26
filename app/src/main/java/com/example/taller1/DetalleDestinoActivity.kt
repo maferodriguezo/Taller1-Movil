@@ -34,11 +34,15 @@ class DetalleDestinoActivity : AppCompatActivity() {
     }
 
     private fun guardarFavorito(destino: Destino) {
-        // Aquí guardar lo de favorito
+        // Agregar el destino a la lista de fav global
+        MainActivity.favoritos.add(destino)
+
         // Por ahora solo un Toast
         val sharedPreferences = getSharedPreferences("favoritos", MODE_PRIVATE)
         val editor = sharedPreferences.edit()
         editor.putString("ultimo_favorito", destino.nombre)
         editor.apply()
     }
+
+
 }
