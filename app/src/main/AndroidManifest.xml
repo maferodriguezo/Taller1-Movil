@@ -23,6 +23,8 @@
 
         <activity android:name=".DestinosActivity" />
         <activity android:name=".DetalleDestinoActivity" />
+        <activity android:name=".FavoritosActivity" />
+        <activity android:name=".RecomendacionesActivity" />
     </application>
 
 </manifest>

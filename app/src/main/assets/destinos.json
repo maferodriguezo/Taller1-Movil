@@ -1,94 +1,108 @@
 {
-  "destinos": [
-    {
-      "id": 1,
-      "nombre": "Cancún",
-      "pais": "México",
-      "categoria": "Playas",
-      "actividad": "Buceo y snorkel",
-      "precio": "USD 800",
-      "descripcion": "Hermosas playas de arena blanca y aguas cristalinas en el Caribe mexicano"
+  "destinos":[
+    {"id": 1,
+      "nombre": "Baia do Sancho",
+      "pais": "Brazil", "categoria": "Playas",
+      "plan": "Snorkeling y paseos en barco",
+      "precio": 150
     },
-    {
-      "id": 2,
+    {"id": 2,
+      "nombre": "Eagle Beach",
+      "pais": "Aruba",
+      "categoria": "Playas",
+      "plan": "Relajación y deportes acuáticos",
+      "precio": 200
+    },
+    {"id": 3,
+      "nombre": "El Nido",
+      "pais": "Filipinas",
+      "categoria": "Playas",
+      "plan": "Tour de islas y buceo",
+      "precio": 180
+    },
+    {"id": 4,
+      "nombre": "Monte Everest",
+      "pais": "Nepal/China",
+      "categoria": "Montañas",
+      "plan": "Trekking al campo base",
+      "precio": 1000
+    },
+    {"id": 5,
+      "nombre": "Mont Blanc",
+      "pais": "Francia/Italia",
+      "categoria": "Montañas",
+      "plan": "Ascenso y esquí",
+      "precio": 1500
+    },
+    {"id": 6,
+      "nombre": "Aconcagua",
+      "pais": "Argentina",
+      "categoria": "Montañas",
+      "plan": "Expedición de montañismo",
+      "precio": 3000
+    },
+    {"id": 7,
       "nombre": "Machu Picchu",
       "pais": "Perú",
-      "categoria": "Maravillas del Mundo",
-      "actividad": "Trekking y fotografía",
-      "precio": "USD 1200",
-      "descripcion": "Antigua ciudadela inca en lo alto de las montañas de los Andes"
-    },
-    {
-      "id": 3,
-      "nombre": "París",
-      "pais": "Francia",
       "categoria": "Ciudades Históricas",
-      "actividad": "Tour cultural y gastronomía",
-      "precio": "USD 1500",
-      "descripcion": "La ciudad del amor con monumentos icónicos como la Torre Eiffel"
+      "plan": "Caminata por el Camino Inca",
+      "precio": 500
     },
-    {
-      "id": 4,
-      "nombre": "Alpes Suizos",
-      "pais": "Suiza",
-      "categoria": "Montañas",
-      "actividad": "Esquí y senderismo",
-      "precio": "USD 1800",
-      "descripcion": "Impresionantes montañas para deportes de invierno y verano"
-    },
-    {
-      "id": 5,
-      "nombre": "Amazonas",
-      "pais": "Brasil",
-      "categoria": "Selvas",
-      "actividad": "Ecoturismo y avistamiento",
-      "precio": "USD 1000",
-      "descripcion": "La selva tropical más grande del mundo con biodiversidad única"
-    },
-    {
-      "id": 6,
+    {"id": 8,
       "nombre": "Roma",
       "pais": "Italia",
       "categoria": "Ciudades Históricas",
-      "actividad": "Tour histórico y cultural",
-      "precio": "USD 1300",
-      "descripcion": "Ciudad eterna con ruinas antiguas y arte renacentista"
+      "plan": "Tour histórico y cultural",
+      "precio": 300
     },
-    {
-      "id": 7,
-      "nombre": "Bali",
-      "pais": "Indonesia",
-      "categoria": "Playas",
-      "actividad": "Relax y cultura local",
-      "precio": "USD 900",
-      "descripcion": "Isla paradisíaca con templos hindúes y playas exóticas"
+    {"id": 9,
+      "nombre": "Petra",
+      "pais": "Jordania",
+      "categoria": "Ciudades Históricas",
+      "plan": "Exploración arqueológica",
+      "precio": 250
     },
-    {
-      "id": 8,
-      "nombre": "Gran Cañón",
-      "pais": "Estados Unidos",
+    {"id": 10,
+      "nombre": "Gran Muralla China",
+      "pais": "China",
       "categoria": "Maravillas del Mundo",
-      "actividad": "Senderismo y fotografía",
-      "precio": "USD 1100",
-      "descripcion": "Impresionante formación geológica tallada por el río Colorado"
+      "plan": "Caminata y tour cultural",
+      "precio": 100
     },
-    {
-      "id": 9,
-      "nombre": "Kilimanjaro",
-      "pais": "Tanzania",
-      "categoria": "Montañas",
-      "actividad": "Escalada y aventura",
-      "precio": "USD 2000",
-      "descripcion": "La montaña más alta de África con nieves perpetuas"
+    {"id": 11,
+      "nombre": "Taj Mahal",
+      "pais": "India",
+      "categoria": "Maravillas del Mundo",
+      "plan": "Visita guiada histórica",
+      "precio": 50
     },
-    {
-      "id": 10,
+    {"id": 12,
+      "nombre": "Pirámides de Giza",
+      "pais": "Egipto",
+      "categoria": "Maravillas del Mundo",
+      "plan": "Tour histórico y de aventura",
+      "precio": 120
+    },
+    {"id": 13,
+      "nombre": "Amazonas",
+      "pais": "Brasil",
+      "categoria": "Selvas",
+      "plan": "Crucero por el río y ecoturismo",
+      "precio": 1500
+    },
+    {"id": 14,
       "nombre": "Congo",
       "pais": "República Democrática del Congo",
       "categoria": "Selvas",
-      "actividad": "Safari y observación de gorilas",
-      "precio": "USD 2000",
-      "descripcion": "Selva tropical con vida salvaje única incluyendo gorilas de montaña"
+      "plan": "Safari y observación de gorilas",
+      "precio": 2000
+    },
+    {"id": 15,
+      "nombre": "Borneo",
+      "pais": "Indonesia/Malasia",
+      "categoria": "Selvas",
+      "plan": "Trekking y observación de la vida silvestre",
+      "precio": 1300
     }
   ]
 }

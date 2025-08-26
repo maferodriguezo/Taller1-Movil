@@ -46,19 +46,6 @@ android:background="?android:attr/selectableItemBackground">
     tools:text="Categoría" />
 
 <TextView
-    android:id="@+id/textViewDescripcion"
-    android:layout_width="186dp"
-    android:layout_height="22dp"
-    android:layout_marginTop="4dp"
-    android:textSize="14sp"
-    android:textAlignment="center"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintHorizontal_bias="0.502"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toBottomOf="@+id/textViewCategoria"
-    tools:text="Descripción del destino" />
-
-<TextView
     android:id="@+id/textViewPrecio"
     android:layout_width="185dp"
     android:layout_height="24dp"
@@ -67,7 +54,7 @@ android:background="?android:attr/selectableItemBackground">
     android:textAlignment="center"
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toBottomOf="@+id/textViewDescripcion"
+    app:layout_constraintTop_toBottomOf="@+id/textViewCategoria"
     tools:text="USD 1000" />
 
 <Button
@@ -81,7 +68,7 @@ android:background="?android:attr/selectableItemBackground">
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintHorizontal_bias="0.0"
     app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toBottomOf="@+id/textViewDescripcion"
+    app:layout_constraintTop_toBottomOf="@+id/textViewPrecio"
     app:layout_constraintVertical_bias="0.971" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -20,7 +20,6 @@ class DetalleDestinoActivity : AppCompatActivity() {
         findViewById<TextView>(R.id.textViewNombre).text = destino.nombre
         findViewById<TextView>(R.id.textViewPais).text = destino.pais
         findViewById<TextView>(R.id.textViewCategoria).text = destino.categoria
-        findViewById<TextView>(R.id.textViewDescripcion).text = destino.descripcion
         findViewById<TextView>(R.id.textViewPrecio).text = destino.precio
 
         // Configurar el botón de favoritos
@@ -34,11 +33,12 @@ class DetalleDestinoActivity : AppCompatActivity() {
     }
 
     private fun guardarFavorito(destino: Destino) {
-        // Aquí guardar lo de favorito
-        // Por ahora solo un Toast
-        val sharedPreferences = getSharedPreferences("favoritos", MODE_PRIVATE)
-        val editor = sharedPreferences.edit()
-        editor.putString("ultimo_favorito", destino.nombre)
-        editor.apply()
+        // Verificar si ya está en favoritos para no duplicar
+        if (!MainActivity.favoritos.any { it.id == destino.id }) {
+            MainActivity.favoritos.add(destino)
+            Toast.makeText(this, "${destino.nombre} añadido a favoritos", Toast.LENGTH_SHORT).show()
+        } else {
+            Toast.makeText(this, "${destino.nombre} ya está en favoritos", Toast.LENGTH_SHORT).show()
+        }
     }
 }

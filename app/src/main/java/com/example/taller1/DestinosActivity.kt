@@ -73,9 +73,8 @@ class DestinosActivity : AppCompatActivity() {
                     nombre = destinoObj.getString("nombre"),
                     pais = destinoObj.getString("pais"),
                     categoria = destinoObj.getString("categoria"),
-                    actividad = destinoObj.getString("actividad"),
+                    plan = destinoObj.getString("plan"),
                     precio = destinoObj.getString("precio"),
-                    descripcion = destinoObj.getString("descripcion")
                 )
                 destinosList.add(destino)
             }

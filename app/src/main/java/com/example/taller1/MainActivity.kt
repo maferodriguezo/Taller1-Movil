@@ -14,6 +14,12 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
 class MainActivity : AppCompatActivity() {
+
+    // Companion object para almacenar favoritos globalmente
+    companion object {
+        val favoritos = mutableListOf<Destino>()
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -56,7 +62,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun configurarBotones() {
-        // Configuracion el botón de Explorar Destinos
+        // Configuración del botón de Explorar Destinos
         findViewById<Button>(R.id.button1).setOnClickListener {
             val spinner = findViewById<Spinner>(R.id.spinnerCategorias)
             val categoriaSeleccionada = spinner.selectedItem.toString()
@@ -66,13 +72,16 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        // Configuracion los otros botones
+        // Configuración del botón de Favoritos
         findViewById<Button>(R.id.button2).setOnClickListener {
-            Toast.makeText(this, "Favoritos", Toast.LENGTH_SHORT).show()
+            val intent = Intent(this, FavoritosActivity::class.java)
+            startActivity(intent)
         }
 
+        // Configuración del botón de Recomendaciones
         findViewById<Button>(R.id.button3).setOnClickListener {
-            Toast.makeText(this, "Recomendaciones", Toast.LENGTH_SHORT).show()
+            val intent = Intent(this, RecomendacionesActivity::class.java)
+            startActivity(intent)
         }
     }
 }

@@ -7,7 +7,6 @@ data class Destino(
     val nombre: String,
     val pais: String,
     val categoria: String,
-    val actividad: String,
+    val plan: String,
     val precio: String,
-    val descripcion: String
 ): Serializable

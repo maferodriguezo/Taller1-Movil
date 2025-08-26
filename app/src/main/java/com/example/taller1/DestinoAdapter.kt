@@ -23,7 +23,6 @@ class DestinoAdapter(
         view.findViewById<TextView>(R.id.textViewPais).text = destino.pais
         view.findViewById<TextView>(R.id.textViewCategoria).text = destino.categoria
         view.findViewById<TextView>(R.id.textViewPrecio).text = destino.precio
-        view.findViewById<TextView>(R.id.textViewDescripcion).text = destino.descripcion
 
         return view
     }
